@@ -1,0 +1,14 @@
+float
+=========
+float => clear the space for below element..
+other elements use the cleared space..
+
+float => it moves css properties with content.
+---------------------------------------
+1) float:left;
+2) float:right;
+----------------------
+3) clear:both;
+-----------------
+float efects cancel
+======================

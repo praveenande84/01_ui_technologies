@@ -1,0 +1,2 @@
+border-collapse
+scroll-behaviour:smooth;

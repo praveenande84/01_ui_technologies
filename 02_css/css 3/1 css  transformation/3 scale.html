@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>scale</title>
+  
+<style>
+body{
+font-family:Arial,sans-serif;
+}
+
+section{
+ background-color:lightgrey;
+ padding:15px;
+ margin:15px;
+ text-align:center;
+}
+
+section article{
+ background-image:linear-gradient(45deg,yellow,pink,blue);
+ margin:10px;
+ width:250px;
+ display:inline-block;
+ border-radius:5px;
+ box-shadow:0 0 10px black;
+}
+
+/*-------transform--------*/
+
+.scaleX:hover{
+transform:scaleX(2);
+}
+
+.scale-X:hover{
+transform:scaleX(0.5);
+}
+
+.scaleY:hover{
+transform:scaleY(2);
+}
+
+.scale-Y:hover{
+transform:scaleY(0.5);
+}
+
+.scaleXY:hover{
+transform:scale(2,2);
+}
+
+.scale-XY:hover{
+transform:scale(0.5,0.5);
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css transform</h2></center>
+<hr><hr>
+
+<center><h2>scale</h2></center>
+<hr>
+
+<section>
+  <article class="scaleX">
+    <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="scale-X">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="scaleY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="scale-Y">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+  
+  <article class="scaleXY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+  
+  <article class="scale-XY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+</section>
+
+
+
+</body>
+
+</html>

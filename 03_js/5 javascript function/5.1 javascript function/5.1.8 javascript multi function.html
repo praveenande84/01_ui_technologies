@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>5.1.8 javascript multi function</title>
+</head>
+
+
+<body>
+
+<center><h1>function</h1></center>
+<hr><hr>
+
+<center><h2>multi function</h2></center>
+<hr>
+
+<center><h2>multi function virus type repeated</h2></center>
+<hr>
+
+
+
+<script>
+
+function first(){
+document.write("I am first "+"<br>");
+second(); //calling second()
+}
+function second(){
+document.write(" I am second "+"<br>");
+first(); //calling first()
+}
+function third(){
+first();
+second();
+}
+third();//calling third() and two functions are included in the third function.
+
+</script>
+</body>
+
+
+</html>

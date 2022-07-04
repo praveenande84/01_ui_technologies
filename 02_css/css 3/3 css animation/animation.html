@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>animation</title>
+
+<style>
+
+.box{
+width:200px;
+height:200px;
+box-shadow:0 0 10px black;
+border:15px solid green;
+background-color:orange;
+}
+
+.simple{
+/*------3 seconds are divided by %-----*/
+animation:simple 3s infinite linear 0s;
+}
+
+@keyframes simple{
+  
+  0%,100%{
+  background-color:blue;
+  border-color:red;
+  }
+  
+  50%{
+  background-color:pink;
+  border-color:yellow;
+  }
+}
+
+.spin{
+animation:spin 3s infinite linear 0s;
+}
+
+@keyframes spin{
+  
+  0%{
+  transform:rotate(0deg);
+  }
+  
+  50%{
+  transform:rotate(180deg);
+  }
+  
+  100%{
+  transform:rotate(360deg);
+  }
+}
+
+.news{
+background-color:orange;
+border:solid 10px red;
+overflow:hidden;
+}
+
+.news p{
+padding:10px;
+animation:news 10s infinite linear;
+}
+
+@keyframes news{
+0%{
+transform:translateX(100%);
+}
+100%{
+transform:translateX(-100%);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center><h1>animation</h1></center>
+<hr><hr>
+
+<h2>simple</h2>
+<div class="box simple"></div>
+<hr>
+
+<h2>spin</h2>
+<div class="box spin"></div>
+<hr>
+
+<h2>news</h2>
+<div class="news">
+<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph.</p>
+</div>
+<hr>
+
+
+</body>
+
+</html>

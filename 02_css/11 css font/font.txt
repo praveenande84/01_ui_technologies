@@ -1,0 +1,10 @@
+
+font
+=========
+font-size:px / em;
+font-family:font,font-family;
+font-style:italic / normal;
+font-weight:bold / lighter;
+=======================
+font-family => serif / sans-serif / monospaced / cursive
+========================================

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>12.5 javascript Array concat</title>
+
+</head>
+
+
+<body> 
+
+<center><h1>array</h1></center>
+<hr><hr>
+<h2>Array store the list data./store the multiple values in a single variable.</h2>
+<hr>
+
+<h1>variable.length</h1>
+<hr>
+
+<h2>concat is used for adding two arrays</h2>
+<hr>
+
+
+
+<script type="text/javascript">
+
+var boys=new Array("praveen","ramu","sudheer","kalyan");
+var girls=new Array("jyothi","swathi","padma","prema");
+
+document.write(boys.length+"<br>");
+document.write(girls.length+"<br>");
+
+var students=boys.concat(girls);//here girls are joined with boys with concat method.
+
+document.write(students.length+"<br>");
+document.write(students[6]);//javascript output 6th number is padma in students array
+
+</script>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>css selector priority</title>
+
+<style>
+
+<!--browser reads css in line by line -->
+
+
+
+.green{
+background-color:green;
+}
+
+.pink{
+background-color:pink;
+}
+
+#yellow{
+background-color:yellow;
+}
+
+.orange{
+background-color:orange;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css</h2></center>
+<hr><hr>
+
+<center><h2>selector</h2></center>
+<hr>
+
+<center><h2>selector priority</h2></center>
+<hr>
+<ol>
+<li>inline</li>
+<li>id</li>
+<li>class</li>
+</ol>
+
+<!--browser reads css in line by line -->
+<!--many browsers give more priority to inline selector of inline,id,class-->
+<h1 class="green pink orange" id="yellow" style="background-color:red;">prowin ideas</h1>
+
+</body>
+
+
+</html>

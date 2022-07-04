@@ -1,0 +1,22 @@
+javascript attachment :
+==========================
+javascript is attached in 4 ways :
+------------------------------------
+1)head javascript
+2)body javascript
+3)Inline javascript
+4)external javascript
+------------------------------------
+1)head javascript : javascript code is inserted in script container tag.
+                    script container tag is inserted in head container tag.
+					
+2)body javascript : javascript code is inserted in script container tag.
+                     script container tag is inserted in body container tag.
+					 
+3)Inline javascript : javascript code is used with javascript attribute.
+
+4)external javascript : javascript code is inserted in script container tag.
+                    script container tag with src attribute is inserted in head container tag.
+		   src attribute is used to add the path of external javascript file.
+		   the external javascript file is saved with extention .js
+--------------------------------------------------------------------------------------

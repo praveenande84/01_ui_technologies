@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>6.2 javascript variables</title>
+</head>
+
+
+
+<body>
+
+<center><h1>javascript variables</h1></center>
+<hr><hr>
+
+<center><h2>local variable</h2></center>
+<hr>
+
+
+
+<script>
+
+function first(){
+var name="Ande praveen"; // variable name is name,we created variable Inside of the function therefore we can use the word name variable only in this function.
+document.write("first function my name is :"+name+"<br>");
+}
+
+function second(){
+document.write("second function my name is :"+name+"<br>")//the variable name is not work here,because the word name variable belongs to only for first().
+}
+first();//name variable works here.
+second();//name variable not works here.
+
+document.write("outside function my name is : " +name+"<hr>"); //the word name variable is a local variable therefore name variable not works outside of the function.
+</script>
+
+
+</body>
+
+
+
+</html>

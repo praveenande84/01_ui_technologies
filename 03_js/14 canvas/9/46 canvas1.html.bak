@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>canvas</title>
+</head>
+
+<link rel="stylesheet" href="canvas.css">
+
+<script type="text/javascript" src="canvas.js"></script>
+
+<body>
+
+<center><h2>canvas</h2></center>
+<hr>
+
+<center><h2>rectangle</h2></center>
+<hr>
+
+<canvas id="mycanvas" width="500px" height="500px">
+
+
+
+</canvas>
+
+
+
+
+</body>
+
+</html>

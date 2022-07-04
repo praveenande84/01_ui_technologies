@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>11.1 javascript oop</title>
+
+<script>
+
+function customer(name,mobile){ //this is constructed function.
+   this.name=name; //"this" means object name...".name" means we mentioned as a first property of the function.
+   this.mobile=mobile;//"this" means object name...".mobile" means we mentioned as a second property of the function.
+}
+
+
+//we created  new objects with property name and mobile.
+// these created objects behaviour like as  above customer constructed function behaviour.
+var praveen=new customer("praveen ande","9390844214"); //this behaviour likes as the customer function behaviour.
+var ramu=new customer("vasa ramu","798777478378"); //this behaviour likes as the customer function behaviour.
+var sudheer=new customer("sudheer sala","754787847"); //this behaviour likes as the customer function behaviour.
+
+</script>
+
+
+</head>
+
+<body> 
+
+<center><h1>javascript oop</h1></center>
+<hr><hr>
+
+<h1>object oriented program</h1>
+<hr><hr>
+
+<h2>we can create object in two ways</h2>
+<hr>
+
+<h2>we can create own object</h2>
+<hr>
+
+<h2>constructed function WITH var and new keywords</h2>
+<hr>
+
+
+<script>
+
+document.write(praveen.name+"<br>");
+document.write(praveen.mobile+"<hr>");
+document.write(ramu.name+"<br>");
+document.write(ramu.mobile+"<hr>");
+document.write(sudheer.name+"<br>");
+document.write(sudheer.mobile+"<hr>");
+</script>
+
+</body>
+
+
+
+</html>

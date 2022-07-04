@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>2 setInterval( )</title>
+
+</head>
+
+<center><h2>time</h2></center>
+<hr><hr>
+
+<h2>current time</h2>
+<hr>
+
+
+<body> 
+
+<script type="text/javascript">
+
+function time(){
+
+// keyword Date() gives current time.
+var time=new Date();
+
+var year=time.getFullYear();
+var month=time.getMonth();
+var date=time.getDate();
+var hours=time.getHours();
+var minutes=time.getMinutes();
+var seconds=time.getSeconds();
+var milliseconds=time.getMilliseconds();
+var time=time.getTime();
+
+document.write(year+"<br>");
+document.write(month+"<br>");
+document.write(date+"<br>");
+document.write(hours+"<br>");
+document.write(minutes+"<br>");
+document.write(seconds+"<br>");
+document.write(milliseconds+"<br>");
+document.write(time+"<br>");
+
+}
+
+time();
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html>

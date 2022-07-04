@@ -1,0 +1,11 @@
+javascript :
+===================
+javascript uses :
+------------------
+1)javascript can change html container tag content.
+2)javascript can change html attribute value.
+3)javascript can change css style of html.
+4)javascript can hide html container tag content.
+5)javascript can show html container tag content.
+6)javascript can validate the html form.
+----------------------------------------------------

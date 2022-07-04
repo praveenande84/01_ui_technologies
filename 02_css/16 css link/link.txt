@@ -1,0 +1,6 @@
+link
+======
+selector:link => a normal unvisited link
+selector:activate => for active situation
+selector:visited => for visited link
+==========================================

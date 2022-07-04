@@ -1,0 +1,3 @@
+inherit takes parent style values
+
+overflow:hidden;

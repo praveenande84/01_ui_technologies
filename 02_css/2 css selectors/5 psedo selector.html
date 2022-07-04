@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>css pseudo selector</title>
+
+<style>
+
+input[type="text"]:focus{
+background-color:blue;
+font-size:1.2em;
+color:white;
+
+}
+
+input[type="password"]:focus{
+background-color:orange;
+}
+
+
+
+input[type="submit"]:hover{
+background-color:pink;
+font-size:1.2em;
+}
+
+input[type="reset"]:hover{
+background-color:pink;
+font-size:1.2em;
+transition:all 4s;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css</h2></center>
+<hr><hr>
+
+<center><h2>selector</h2></center>
+<hr>
+
+<center><h2>pseudo selector</h2></center>
+<hr>
+
+<center><h2>selector:event{styles;} </h2></center>
+<hr>
+
+<form>
+
+<label>User name</label>
+<input type="text">
+<br><br>
+
+<label>password</label>
+<input type="password">
+<br><br>
+
+<input type="submit" value="submit">
+<br><br>
+
+<input type="reset" value="reset">
+<br>
+
+
+</form>
+
+</body>
+
+
+</html>

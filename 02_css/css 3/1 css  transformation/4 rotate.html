@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>rotate</title>
+  
+<style>
+body{
+font-family:Arial,sans-serif;
+}
+
+section{
+ background-color:lightgrey;
+ padding:15px;
+ margin:15px;
+ text-align:center;
+}
+
+section article{
+ background-image:linear-gradient(45deg,yellow,pink,blue);
+ margin:10px;
+ width:250px;
+ display:inline-block;
+ border-radius:5px;
+ box-shadow:0 0 10px black;
+}
+
+/*-------transform--------*/
+
+.rotate:hover{
+transform:rotate(50deg);
+transition:all 2s;
+}
+
+.rotateX:hover{
+transform:rotateX(50deg);
+transition:all 2s;
+}
+
+.rotateY:hover{
+transform:rotateY(50deg);
+transition:all 2s;
+}
+
+.rotateZ:hover{
+transform:rotateZ(50deg);
+transition:all 2s;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css transform</h2></center>
+<hr><hr>
+
+<center><h2>rotate</h2></center>
+<hr>
+
+<section>
+  <article class="rotate">
+    <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="rotateX">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="rotateY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="rotateZ">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+  
+
+</section>
+
+
+
+</body>
+
+</html>

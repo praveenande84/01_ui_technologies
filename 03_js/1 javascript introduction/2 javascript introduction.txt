@@ -1,0 +1,9 @@
+javascript introduction
+=======================
+1)client-side validation
+2)Dynamic drop-down menus
+3)Displaying date and time
+4)Displaying popup windows and 5)dialog boxes
+6)Interactive webpage
+7)Dynamic webpage
+=======================

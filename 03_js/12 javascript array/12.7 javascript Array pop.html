@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>12.7 javascript Array pop</title>
+
+</head>
+
+
+<body> 
+
+<center><h1>array</h1></center>
+<hr><hr>
+<h2>Array store the list data./store the multiple values in a single variable.</h2>
+<hr>
+
+<h2>pop</h2>
+<hr>
+
+<h2>pop is used for remove the last item from the array list</h2>
+<hr>
+
+
+
+<script>
+
+
+var animals=new Array("cow","dog","rat","cat","tiger");
+document.write(animals[4]+"<br>");
+
+animals.pop(); // last value of the Array is removed from animals Array values.
+document.write(animals[4]+"<br>");//4th value undefined because pop is removed the last value of the Array values.
+
+
+document.write(animals[3]+"<br>");
+animals.pop();  // last value of the Array is removed from animals Array values.
+document.write(animals[3]+"<br>");//now 3rd value is also undefined because pop is removed last value of the Array values.
+
+document.write(animals.length);//answer 3 ,because already 2 values removed from array values.
+
+
+</script>
+<hr>
+
+
+
+</body>
+
+
+
+</html>

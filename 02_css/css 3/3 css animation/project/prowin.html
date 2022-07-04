@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>prowin</title>
+
+<style>
+body{
+background-color:black;
+}
+
+div{
+margin:200px;
+}
+
+span{
+font-family:"comic sans MS",sans-serif;
+font-size:30px;
+padding:14px 25px;
+margin:10px;
+border-radius:5px;
+display:inline-block; /*---this is very important---*/
+color:white;
+background-image:linear-gradient(45deg,orange,red,green);
+box-shadow:0 0 10px reddish;
+animation:move 1s infinite alternate;
+}
+
+@keyframes move {
+0%,100%{
+transform:translateY(-50px);
+}
+50%{
+transform:translateY(50px);
+}
+}
+
+span:nth-child(1){
+animation-delay:0.1s;
+}
+
+span:nth-child(2){
+animation-delay:0.2s;
+}
+
+span:nth-child(3){
+animation-delay:0.3s;
+
+}
+
+span:nth-child(4){
+animation-delay:0.4s;
+}
+
+span:nth-child(5){
+animation-delay:0.5s;
+}
+</style>
+
+</head>
+
+<body>
+
+<center><h1>animation</h1></center>
+<hr><hr>
+
+<div>  
+   <span>P</span>
+   <span>R</span>
+   <span>O</span>
+   <span>W</span>
+   <span>I</span>
+   <span>N</span>
+</div> 
+<hr>
+
+
+
+</body>
+
+</html>

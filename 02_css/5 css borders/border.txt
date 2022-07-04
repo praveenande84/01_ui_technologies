@@ -1,0 +1,130 @@
+border
+================================
+1)border-style:style;
+
+2)border-style:style;
+2)border-width:size;
+
+3)border-style:style;
+3)border-color:color;
+---------------------------------
+4)shortcut{
+border:style width color;
+}
+
+5)border:none;
+==================================
+6)border-direction:style size color;
+-----------------------------------
+1)border-top:style size color;
+2)border-right:style size color;
+3)border-bottom:style size color;
+4)border-left:style size color;
+====================================
+border-style
+------------------------------------
+1)border-style:solid;
+                TRBL
+				
+2)border-style:solid dashed;
+                 TB    RL
+				 
+3)border-style:solid dashed dotted;
+                 TB    R      L		
+				 
+4)border-style:solid dashed dotted double;
+                 T    R      L		  B
+
+5)border-style:none;
+                TRBL	
+				
+6)border-style:none none none none;
+                T    R   L	   B	
+
+7)border-style:none dashed none none;
+                 T    R   L	   B					
+==========================================
+border-width
+------------------------------------------				 
+1)border-width:10px;
+               TRBL
+
+2)border-width:10px 20px;
+                TB   RL
+				
+3)border-width:10px 20px 30px;
+                TB   R      L	
+
+4)border-width:10px 20px 30px 40px;
+                 T    R    L   B
+				 
+5)border-style:none;
+               TRBL	
+				
+6)border-style:none none none none;
+                T    R   L	   B
+
+7)border-style:none 20px none none;
+                T    R   L	   B
+				
+8)border-style:0px;
+               TRBL	
+
+9)border-style:0px 0px 0px 0px;
+                T    R   L	   B
+
+10)border-style:0px 20px 0px 0px;
+                T    R   L	   B				
+=====================================	
+border-color	
+-------------------------------------
+1)border-color:green;
+		       TRBL
+			   
+2)border-color:green red;
+                TB   RL
+	
+3)border-color:green red yellow;
+                 TB   R      L
+	
+4)border-color:green red yellow blue;	
+                 T    R    L     B
+				 
+5)border-color:none;
+               TRBL	
+				
+6)border-color:none none none none;
+                T    R   L	   B
+
+7)border-color:none red none none;
+                T    R   L	   B				
+========================================
+border-radius
+----------------------------------------
+1)border-radius:10px;
+		        TRBL
+		 
+2)border-radius: 10px 20px;
+                  TB   RL
+	
+3)border-radius: 10px 20px 30px;
+                  TB   R      L
+	
+4)border-radius:10px 20px 30px 40px;	
+                 T    R    L     B
+		 
+5)border-radius:none;
+                TRBL	
+		
+6)border-radius:none none none none;
+                  T    R   L    B
+
+7)border-radius:none 20px none none;
+                 T    R   L	   B	
+========================================
+information:
+--------------
+width -> px , cm , mm
+style -> solid , dotted , dashed , double
+color -> color , hex , rgb
+=========================================

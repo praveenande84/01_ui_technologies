@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	font-family:Arial,sans-serif;
+}
+
+.main-nav{
+	background-color:black;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	padding:5px;
+	align-items:center;
+	box-shadow:0 0 10px black;
+}
+
+.nav-items{
+	display:flex;
+	align-items:center;
+}
+
+.nav-items a{
+	color:white;
+	text-decoration:none;
+	padding:10px 25px;
+}
+
+.nav-items a:hover{
+	background-color:white;
+	color:black;
+}
+
+/*------full screen landing page--------*/
+
+.main-content{
+	background:white url("image-cheetha.jpg") no-repeat scroll center;
+	height:100vh;/*--visual height--*/
+	height:100hh;
+}
+
+.main-content-wrapper{
+	background-color:rgba(0,0,0,0.5);
+	color:orange;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}

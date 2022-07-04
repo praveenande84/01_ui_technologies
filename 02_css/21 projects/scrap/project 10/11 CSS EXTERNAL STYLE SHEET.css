@@ -1,0 +1,42 @@
+body{
+font-family:arial,sans-serif;
+background-color:#C3DDDD;
+}
+header{
+	width:50%;
+	background-color:#4d54db;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+}
+section{
+	width:90%;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-color:orange;
+	padding:10px;
+}
+footer{
+width:80%;
+	background-color:#4d54db;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+	padding:20px;
+}
+h1{
+	line-height:10px;
+	font-size:1.6em;/*160%*/
+}
+hgroup h1{
+	font-size:3em;
+	text-align:center;
+}
+section h1{
+	color:red;
+	text-align:center;
+}

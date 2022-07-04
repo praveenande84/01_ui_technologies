@@ -1,0 +1,10 @@
+outline
+==========
+outline-width:
+outline-style:
+outline-color:
+------------------
+shortcut
+-----------
+outline:width style color;
+==============================

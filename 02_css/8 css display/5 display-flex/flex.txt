@@ -1,0 +1,25 @@
+Flex Box
+----------
+flexible
+===========
+display:flex;
+-------------------
+flex-direction:row;
+flex-direction:column;
+flex-direction:row-reverse;
+flex-direction:column-reverse;
+----------------------------------------
+flex:1; => same width and Height ratio
+-------------------------------------------
+align-items(main-axis):flex-start;
+align-items(main-axis):flex-end;
+align-items(main-axis):center;
+----------------------------------------
+justify-content:flex-start / flex-end / center;
+justify-content:space-betwen;
+justify-content:space-around;
+justify-content:space-evenly;
+--------------------------------------
+flex-wrap:wrap;
+flex-wrap:no-wrap;
+--------------------------------------

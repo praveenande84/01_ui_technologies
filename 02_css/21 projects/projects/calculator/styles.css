@@ -1,0 +1,33 @@
+table,th,td{
+	/*border:solid 2px orange;*/
+	border-collapse:collapse;
+	text-align:center;
+	padding:10px;
+	font-size:18px;
+	border-radius:10px;
+}
+
+table{
+	width:200px;
+}
+
+th{
+	background-color:lightgreen;
+	color:white;
+}
+
+tr:nth-child(odd){
+	background-color:lightpink;
+}
+
+tr:nth-child(even){
+	background-color:lightblue;
+}
+
+td{
+	box-shadow:0 0 10px black;
+}
+
+td:hover{
+	background:linear-gradient(45deg,lightpink,yellow,black);
+}

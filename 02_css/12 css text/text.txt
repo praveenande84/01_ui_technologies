@@ -1,0 +1,35 @@
+text
+===========================
+text-align
+----------------------------
+1) text-align:left;
+2) text-align:center;
+3) text-align:right;
+4) text-align:justify;
+============================
+text-decoration
+----------------------------
+1)text-decoration:overline;
+2)text-decoration:line-through;
+3)text-decoration:underline;
+4)text-decoration:none;
+===============================
+text-transform
+-------------------------------
+1)text-transform:lowercase;
+2)text-transform:uppercase;
+3)text-transform:capitalize;
+================================
+text-indent
+--------------------
+text-indent:px;
+--------------------
+
+text-indent -> text-indent is used for valid the white spaces of starting line with px.
+----------------------------------------------------------------------------------------------------------
+text-shadow
+-----------------
+text-shadow:x y blur color;
+---------------------------
+example =>text-shadow:0 0 10px black;
+=======================================================================================

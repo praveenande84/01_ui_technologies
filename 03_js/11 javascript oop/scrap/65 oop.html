@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>65 oop</title>
+
+<script type="text/javascript">
+
+
+
+
+
+function boy(name,age){
+ this.name=name; //property
+ this.age=age; //property
+ this.toBecomeMajor=yearsLeft; //property
+}
+function yearsLeft(){
+    var major=18-this.age;
+	return major;
+}
+
+var praveen=new boy("praveen ande","5");
+var ramu=new boy("ramu vasa","8");
+var sudheer=new boy("sudheer sala","9");
+
+
+
+
+</script>
+
+</head>
+
+
+<body> 
+
+<h1>object oriented programming</h1>
+<hr><hr>
+
+<h2>we can create object in two ways</h2>
+<hr>
+
+<h2>method usage</h2>
+<hr>
+
+
+
+<script type="text/javascript">
+
+document.write(praveen.toBecomeMajor() +"<br>");
+document.write(ramu.toBecomeMajor() +"<br>");
+document.write(sudheer.toBecomeMajor() +"<br>");
+
+
+</script>
+
+</body>
+
+
+
+</html>

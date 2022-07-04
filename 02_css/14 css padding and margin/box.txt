@@ -1,0 +1,8 @@
+box
+=========
+M => margin
+O => outline
+B => border
+P => padding
+C => content
+===============

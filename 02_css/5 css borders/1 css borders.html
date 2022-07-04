@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>css borders</title>
+
+<style>
+
+body{
+height:4000px;
+}
+
+#default-border{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+}
+
+#border-style{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border-style:solid;
+}
+
+#border-width{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border-style:solid;
+border-width:10px;<!--without border-style doesn't work-->
+}
+
+#border-color{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border-style:solid;
+border-color:pink;<!--without border-style doesn't work-->
+}
+
+#shortcut{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border:solid 10px pink;
+}
+
+#border-single{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border-top:15px solid orange;
+border-right:25px double green;
+border-bottom:5px dashed blue;
+border-left:20px dotted pink;
+}
+
+
+#border-rounded1{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border-radius:50px;
+}
+
+#border-rounded2{
+background-color:lightgreen;
+text-align:center;
+padding:20px;
+width:500px;
+border:solid 10px pink;
+border-radius:50px;
+}
+
+
+/*--border-radius:5%;*/
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css borders</h2></center>
+<hr><hr>
+
+<center><h2>border all sides</h2></center>
+<hr>
+
+<h2>default border</h2>
+<div id="default-border">
+<h2>No border</h2>
+</div>
+<hr>
+
+<h2>border:style;</h2>
+<div id="border-style">
+<h2>border style</h2>
+</div>
+<hr>
+
+<h2>border:width;</h2>
+<div id="border-width">
+<h2>border width</h2>
+</div>
+<hr>
+
+<h2>border:color;</h2>
+<div id="border-color">
+<h2>border color</h2>
+</div>
+<hr>
+
+<h2>border:color;</h2>
+<div id="shortcut">
+<h2>shortcut</h2>
+</div>
+<hr>
+
+<h2>border-single:width style color;</h2>
+<div id="border-single">
+<h2>border single</h2>
+</div>
+<hr>
+
+<h2>border-radius:width style color;</h2>
+<div id="border-rounded1">
+<h2>border rounded</h2>
+</div>
+<hr>
+
+<h2>border-radius:width style color;</h2>
+<div id="border-rounded2">
+<h2>border rounded</h2>
+</div>
+<hr>
+
+<hr>
+</body>
+
+</html>

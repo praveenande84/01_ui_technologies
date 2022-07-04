@@ -1,0 +1,3 @@
+width:inherit; => it is taking parent width size.
+
+display:inline-grid;

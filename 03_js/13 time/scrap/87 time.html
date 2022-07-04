@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>87 time</title>
+
+</head>
+
+<h2>time</h2>
+<hr>
+
+<h2>current time</h2>
+<hr>
+
+
+<body> 
+
+<script type="text/javascript">
+
+function praveen(){
+
+var now=new Date();//now varible has current date and time
+var hh=now.getHours();// take current hour in now variable
+var mm=now.getMinutes();
+var ss=now.getSeconds();
+
+document.write(hh+":"+mm+":"+ss+"<br>");
+}
+setInterval("praveen()",1000); //setInterval is used for repeat the function after some milliseconds.
+</script>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,97 @@
+body{
+	font-family:Arial,sans-serif;
+	background-color:lightsalmon;
+}
+
+/*-------Main header--------*/
+.main-header{
+	background-image:linear-gradient(45deg,blue,orange,black);
+	color:white;
+	padding:10px;
+	box-shadow:0 0 10px black;
+}
+
+.main-nav{
+	background-color:black;
+	padding:5px;
+	box-shadow:0 0 10px black;
+}
+
+.main-nav a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	padding:10px 25px;
+	display:inline-block;
+}
+
+.main-nav a:hover{
+	background-image:linear-gradient(45deg,orange,red);
+	border-radius:15px;
+}
+
+.main-nav a.active{
+	background-image:linear-gradient(45deg,green,red);
+}
+
+
+/*-------sidebar--------*/
+.sidebar{
+	background-image:linear-gradient(45deg,orange,darkred);
+	padding:10px;
+	float:left;
+	width:200px;
+	text-align:center;
+	box-shadow:0 0 10px black;
+	/*to fix sidebar*/
+	position:sticky;
+	top:0px;
+}
+
+.sidebar a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	padding:18px 25px;
+}
+
+.sidebar a:hover{
+	background-image:linear-gradient(45deg,orange,red);
+	border-radius:15px;
+	box-shadow:0 0 5px white;
+}
+
+/*-------Main contenet section--------*/
+.main-section{
+	margin-left:270px;
+	padding:20px;
+}
+
+.main-section article h2{
+	font-size:30px;
+	color:darkred;
+}
+
+.main-section article p{
+	font-size:20px;
+	color:redgreen;
+}
+
+/*--------main footer----------*/
+.main-footer{
+	background-image:linear-gradient(45deg,orange,red);
+	padding:15px;
+	color:white;
+	text-align:center;
+}
+
+.main-footer a{
+	color:orange;
+} 
+
+/*---------end---------*/
+
+
+
+

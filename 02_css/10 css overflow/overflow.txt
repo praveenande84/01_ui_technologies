@@ -1,0 +1,9 @@
+overflow :
+===============
+overflow default
+1)overflow:hidden; => child element is not overflow on parent
+2)overflow:scroll;
+3)overflow-x:scroll;
+4)overflow-y:scroll;
+-----------------------
+

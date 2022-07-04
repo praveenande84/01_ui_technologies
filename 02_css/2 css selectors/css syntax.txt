@@ -1,0 +1,7 @@
+css syntax
+============
+selector{
+property:value; 
+property:value;
+}
+=========================================

@@ -1,0 +1,1 @@
+document.write("welcome top");//it is shows top of the webpage

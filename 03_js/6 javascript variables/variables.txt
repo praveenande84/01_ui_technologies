@@ -1,0 +1,9 @@
+1)In a programming language,variables are used to store data values.
+
+==================================
+types of variables 
+-------------------------
+1)string
+2)number
+3)boolean
+================================

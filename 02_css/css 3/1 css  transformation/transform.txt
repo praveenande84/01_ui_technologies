@@ -1,0 +1,26 @@
+transform
+============
+1)transform:translateX(px);  |
+1)transform:translateY(px);  | => we can give +ve  or -ve
+1)transform:translate(X,Y);  |
+----------------------------
+2)transform:skewX(deg);
+2)transform:skewY(deg);
+2)transform:skew(X,Y);
+-----------------------------
+3)transform:scaleX(2 times);    |
+3)transform:scaleY(2 times);    |=> scale -> zooming -> 1 = 100%
+3)transform:scale(X,Y);         |
+------------------------    
+4)transform:rotate(deg);          |
+4)transform:rotateX(deg);         |
+4)transform:rotateY(deg);         | => we can give +ve  or -ve
+4)transform:rotateZ(deg);         |
+4)transform:rotate3d(X,Y,Z);      |
+------------------------------
+5)transform-origin:left; => stick on left
+================================
+transition:all 2sec;
+=================================
+perspective(px)
+=================================

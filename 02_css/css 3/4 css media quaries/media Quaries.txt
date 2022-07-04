@@ -1,0 +1,17 @@
+Media Queries
+===============
+Responsiveness => perfectly fit for all the different screen sizes.
+------------------
+@media(max-width:550px){
+  /*----css styles-----*/
+}
+-------------------
+@media(min-width:550px) and (max-width:800px){
+  /*----css styles-----*/
+}
+----------------------------------
+Mobile -> width : 0px - 550px
+Tablet -> width : 551px - 800px
+Laptop -> width : 801px - 1200px
+Wide -> width : 1201px - 1202+  -> tv and projector
+------------------------------------

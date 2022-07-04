@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>canvas</title>
+</head>
+
+<body>
+
+<center><h2>canvas</h2></center>
+<hr>
+
+
+
+<canvas width="200" height="100">
+
+
+
+</canvas>
+
+
+<script>
+function a(){
+	var praveen=document.getElementById("mycanvas");
+	var ande=praveen.getContext("2d");
+	
+	ande.font="50px impact";
+	ande.fillStyle="red";
+	ande.fillText("WELCOME",50,200);
+	
+	ande.fillStyle="pink";
+	ande.fillRect(10,10,100,150);
+	
+	ande.strokeStyle="green";
+	ande.strokeRect(200,200,100,150);
+	
+	
+	ande.clearRect(20,20,50,100);
+	
+	
+	
+	
+	
+	window.addEventListener("load",a,false);
+</script>
+
+
+
+
+
+</body>
+
+</html>

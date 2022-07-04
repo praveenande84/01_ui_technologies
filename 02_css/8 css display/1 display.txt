@@ -1,0 +1,12 @@
+css display
+=====================
+display properties :
+---------------------
+1) display : inline;
+2) display : block;
+3) display : inline-block;
+4) display : none;
+5) display : flex;
+======================
+6) visibility:hidden;
+=======================

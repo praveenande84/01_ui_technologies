@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>position-absolute</title>
+
+<style>
+
+.box{
+width:100px;
+height:100px;
+box-shadow:0 0 5px black;
+}
+
+.box1{
+background-color:red;
+position:static;
+}
+
+.container{
+width:500px;
+height:500px;
+background-color:rgba(0,0,0,0.4);
+position:relative;
+left:200px;
+}
+
+.box2{
+background-color:yellow;
+position:absolute;
+}
+
+.box3{
+background-color:green;
+position:absolute;
+top:100px;
+left:100px;
+}
+
+.box4{
+background-color:pink;
+}
+
+.box5{
+background-color:orange;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css position</h2></center>
+<hr><hr>
+
+<center><h2>position:absolute;</h2></center>
+<hr>
+
+<div class="box box1"></div>
+<div class="container">
+   <div class="box box2">absolute</div>
+   <div class="box box3">absolute</div>
+</div>
+<div class="box box4"></div>
+<div class="box box5"></div>
+<hr>
+
+</body>
+
+</html>

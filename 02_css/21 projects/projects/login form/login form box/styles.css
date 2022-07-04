@@ -1,0 +1,68 @@
+body{
+	font-family:Arial,sans-serif;
+}
+
+.login-div{
+	box-shadow:0 0 10px black;
+	width:300px;
+	padding:20px;
+	border-radius:5px;
+	background-image:linear-gradient(45deg,yellow,green,pink);
+}
+
+.login-div h2{
+	text-align:center;
+}
+
+.form-group label{
+	display:block;
+	padding:10px 0;
+	font-size:18px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group select{
+	font-size:18px;
+	height:35px;
+	width:280px;
+	outline:none;
+	border-radius:8px;
+	border:1px solid lightgrey;
+}
+
+.submit-btn{
+	margin:12px 0;
+	background-image:linear-gradient(45deg,orange,green,pink);
+	width:280px;
+	padding:5px;
+	outline:none;
+	border:none;
+	border-radius:5px;
+}
+
+.submit-btn:hover{
+	background-image:linear-gradient(135deg,reddish,green,pink);
+	cursor:pointer;
+	box-shadow:0 0 10px black;
+}
+
+::placeholder{
+	color:coral;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group input[type="number"]:focus,
+.form-group select:focus{
+	background-color:orange;
+	color:red;
+}
+
+.form-group select option{
+	color:red;
+	background-color:lightgrey;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>skew</title>
+  
+<style>
+body{
+font-family:Arial,sans-serif;
+}
+
+section{
+ background-color:lightgrey;
+ padding:15px;
+ margin:15px;
+ text-align:center;
+}
+
+section article{
+ background-image:linear-gradient(45deg,yellow,pink,blue);
+ margin:10px;
+ width:250px;
+ display:inline-block;
+ border-radius:5px;
+ box-shadow:0 0 10px black;
+}
+
+/*-------transform--------*/
+
+.skewX:hover{
+transform:skewX(20deg);
+}
+
+.skew-X:hover{
+transform:skewX(-20deg);
+}
+
+.skewY:hover{
+transform:skewY(20deg);
+}
+
+.skew-Y:hover{
+transform:skewY(-20deg);
+}
+
+.skewXY:hover{
+transform:skew(20deg,20deg);
+}
+
+.skew-XY:hover{
+transform:skew(-20deg,-20deg);
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css transform</h2></center>
+<hr><hr>
+
+<center><h2>skew</h2></center>
+<hr>
+
+<section>
+  <article class="skewX">
+    <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="skew-X">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="skewY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+	</article>
+	
+	<article class="skew-Y">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+  
+  <article class="skewXY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+  
+  <article class="skew-XY">
+	<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph. </p>
+  </article>
+</section>
+
+
+
+</body>
+
+</html>

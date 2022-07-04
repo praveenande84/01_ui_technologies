@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>flex-wrap</title>
+
+<style>
+.box{
+	background-color:lightgrey;
+	padding:10px;
+	margin:10px;
+	height:500px
+	display:block;
+}
+
+h1{
+background-color:orange;
+padding:10px;
+margin:10px;
+}
+
+.container1{
+display:flex;
+flex-direction:row;
+flex-wrap:no-wrap;
+flex:1;
+}
+
+.container2{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+flex:1;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>flex</h2></center>
+<hr><hr>
+
+<center><h2>wrap</h2></center>
+<hr>
+
+<h2>flex-wrap:no-wrap;</h2>
+<div class="box container2">
+  <h1>flex-box 1</h1>
+  <h1>flex-box 2</h1>
+  <h1>flex-box 3</h1>
+  <h1>flex-box 4</h1>
+  <h1>flex-box 5</h1>
+  <h1>flex-box 6</h1>
+  <h1>flex-box 7</h1>
+  <h1>flex-box 8</h1> 
+</div>
+<hr>
+
+<h2>flex-wrap:wrap;</h2>
+<div class="box container1">
+  <h1>flex-box 1</h1>
+  <h1>flex-box 2</h1>
+  <h1>flex-box 3</h1>
+  <h1>flex-box 4</h1>
+  <h1>flex-box 5</h1>
+  <h1>flex-box 6</h1>
+  <h1>flex-box 7</h1>
+  <h1>flex-box 8</h1> 
+</div>
+<hr>
+
+<hr>     
+</body>
+
+</html>

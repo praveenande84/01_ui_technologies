@@ -1,0 +1,2 @@
+text-align => it moves content only...not css properties
+-----------------------------------------------------------------------

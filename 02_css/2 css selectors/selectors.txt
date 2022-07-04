@@ -1,0 +1,12 @@
+selectors :
+============================
+selectors are 6 types :
+----------------------------
+1)tag selector = same kind of tags selection
+2)id selector = only one particular element selection
+3)class selector = group of elements selection
+4)attribute selector
+5)pseudo selector
+6)mixed selector 
+7)group selection 
+---------------------------------------------------------

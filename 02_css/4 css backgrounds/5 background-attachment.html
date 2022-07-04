@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+<title>background-attachment</title>
+
+<style>
+body{
+height:3000px;
+}
+
+.box{
+background-color:pink;
+width:500px;
+height:300px;
+box-shadow:0 0 10px black;
+background-image:url("image-lion.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+.bg-attachment{
+<!--default background-attachment-->
+}
+
+.bg-attachment1{
+background-attachment:scroll;
+}
+
+.bg-attachment2{
+background-attachment:fixed;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center><h2>css background</h2></center>
+<hr><hr>
+
+
+<center><h2>background-attachment</h2></center>
+<hr>
+
+<h2>default background-attachment</h2>
+<p class="box bg-attachment">paragraph paragraph paragraph paragraph </p>
+<hr>
+
+<h2>background-attachment:fixed;</h2>
+<p class="box bg-attachment1">paragraph paragraph paragraph paragraph </p>
+<hr>
+
+<h2>background-attachment:scroll;</h2>
+<p class="box bg-attachment2">paragraph paragraph paragraph paragraph  </p>
+<hr>
+
+
+<hr>
+</body>
+
+</html>
